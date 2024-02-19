@@ -20,7 +20,7 @@ final class LoginViewController: UIViewController {
     
     //MARK: - Private Properties
     private let user = "User"
-    private let password = "12345"
+    private let password = "123"
     
     // MARK: - Initializers
     override func viewDidLoad() {
