@@ -25,9 +25,9 @@ final class LoginViewController: UIViewController {
     // MARK: - Initializers
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupUI()
     }
+    
     
     // MARK: - Overrides Methods
     //событие перед переходом на WelcomeViewController, проверяем логин

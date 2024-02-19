@@ -34,6 +34,7 @@ extension LoginViewController: UITextFieldDelegate {
         //бар, который отображается над клавиатурой, nil - скрываем.
         //Может не работает, если isSecureTextEntry = false и //textContentType не равно .oneTimeCode и при не заданном keyboardType = .asciiCapable
         textField.inputAccessoryView = nil
+        
     }
 }
 
