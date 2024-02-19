@@ -69,6 +69,7 @@ final class LoginViewController: UIViewController {
     }
     
     // обрабатываем закрытие welcomeView
+    //
     @IBAction func unwind(for segue: UIStoryboardSegue ) {
         userNameField.text = ""
         passwordField.text = ""
@@ -76,7 +77,7 @@ final class LoginViewController: UIViewController {
     }
     
     // MARK: - Public Methods
-    //  событие при нажатии на enter
+    //  событие клавиатуры при нажатии на enter
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
     {
         if checkСredentials() { // переход по сегвею mainSegue
