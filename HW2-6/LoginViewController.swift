@@ -39,7 +39,7 @@ final class LoginViewController: UIViewController {
     // скрываем клавиатуру при тапе на экране
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
-        self.view.endEditing(true)
+        view.endEditing(true)
     }
     
     // передаем текст в welcomeView
@@ -108,7 +108,7 @@ final class LoginViewController: UIViewController {
             let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
             let okAction = UIAlertAction(title: "OK", style: .default) {  _ in
                 if clearFields {
-                    self.userNameField.text = ""
+                    //self.userNameField.text = ""
                     self.passwordField.text = ""
                 }
             }
